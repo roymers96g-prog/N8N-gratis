@@ -8,9 +8,9 @@ services:
       - key: N8N_BASIC_AUTH_ACTIVE
         value: "true"
       - key: N8N_BASIC_AUTH_USER
-        value: "roymers96"
+        value: "tu_usuario_seguro"
       - key: N8N_BASIC_AUTH_PASSWORD
-        value: "huevos159"
+        value: "tu_contraseña_segura"
       - key: N8N_HOST
         value: "n8n.onrender.com"
       - key: N8N_PORT
@@ -21,7 +21,3 @@ services:
         value: "production"
       - key: GENERIC_TIMEZONE
         value: "America/Caracas"
-    disk:
-      name: data
-      mountPath: /home/node/.n8n
-      sizeGB: 1
